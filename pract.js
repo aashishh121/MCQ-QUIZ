@@ -22,13 +22,13 @@ function check(){
     }
     
     if(score >= 4 ){
-    document.write("Marks " +" " + score + " " + "Out Of 5" <br><br> "Final Call : Yes");
+    document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : Yes");
     }
     if(score >= 2 ){
-    document.write("Marks " +" " + score + " " + "Out Of 5" <br><br> "Final Call : Maybe");
+    document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : Maybe");
     }
     if(score <=1 ){
-    document.write("Marks " +" " + score + " " + "Out Of 5" <br><br> "Final Call : No");
+    document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : No");
         
     }
     
