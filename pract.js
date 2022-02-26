@@ -22,13 +22,17 @@ function check(){
     }
     
     if(score >= 4 ){
-    document.write("Yes, Score = " + score);
+    document.write("Marks " + score + "Out Of 5");
+        document.write("Final Call : Yes ");
     }
     if(score >= 2 ){
-    document.write("Maybe, Score = " + score);
+    document.write("Marks " + score + "Out Of 5");
+        document.write("Final Call : Maybe");
     }
     if(score <=1 ){
-    document.write("No, Score = " + score);
+    document.write("Marks " + score + "Out Of 5");
+        document.write("Final Call : No");
+        
     }
     
     }
