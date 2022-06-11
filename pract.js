@@ -21,15 +21,34 @@ function check(){
     score++ ;
     }
     
-    if(score >= 4 ){
-    document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : Yes");
-    }
-    if(score >= 2 ){
-    document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : Maybe");
-    }
-    if(score <=1 ){
-    document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : No");
-        
-    }
     
+//     if(score >= 4 ){
+//     document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : Yes");
+//     }
+//     if(score >= 2 ){
+//     document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : Maybe");
+//     }
+//     if(score <=1 ){
+//     document.write("Marks " + " " + score + " " + "Out Of 5 <br><br> Final Call : No");
+        
+//     }
+    
+    if(score>=4){   
+            document.getElementById("popup").classList.toggle("open-popup");
+                document.getElementById("res").innerHTML="Marks "+score+" out of 5 <br>"+"<br>"+"final call: Yes";
+                return false;
+            }
+            if(score>=3){
+            document.getElementById("popup").classList.toggle("open-popup");
+                document.getElementById("res").innerHTML="Marks "+score+" out of 5 <br>"+"<br>"+"final call: May be";
+                return false;
+            }else{
+            	document.getElementById("popup").classList.toggle("open-popup");
+                document.getElementById("res").innerHTML ="Marks "+score+" out of 5 <br>"+"<br>"+"final call: No";
+                return false;
+            }
     }
+
+    function Reload(){
+            location.reload();
+          }
