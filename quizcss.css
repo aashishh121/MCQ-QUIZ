@@ -80,6 +80,12 @@ body{
   
 }
 
+.active{
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}
+
 .popup h2{
   font-size:38px;
   font-weight:500;
