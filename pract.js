@@ -2,7 +2,7 @@ function check(){
     
     let score = 0 ;
     let value = 0 ;
-    let q1 = document.getElementsByName("question1");
+    let q1 = document.quiz.question1;
     let q2 = document.getElementsByName("question2");
     let q3 = document.getElementsByName("question3");
     let q4 = document.getElementsByName("question4");
