@@ -1,4 +1,8 @@
 function check(){
+    
+    var blur = document.getElementById("blur");
+    blur.classList.add("active");
+    
     let score = 0 ;
     let q1 = document.quiz.question1.value ;
     let q2 = document.quiz.question2.value ;
